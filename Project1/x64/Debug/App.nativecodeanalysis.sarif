@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///e:/visual proj/project1/app.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "ab2846a914ca323f3951f9e4eb601f453db134cc94da448c5ce9db9b3b2bba41"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visual proj/project1/std_type.h"
+          },
+          "hashes": {
+            "sha-256": "12b55cd992fa7978be888263805ba05c10477696ada3aca1aee89a1be73b4387"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visual proj/project1/card.h"
+          },
+          "hashes": {
+            "sha-256": "c31ec87b12bc88de65e3793133ef0f4401610e11ad98b36ea39f7ef7be235e53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visual proj/project1/terminal.h"
+          },
+          "hashes": {
+            "sha-256": "7166161c85d43a8df9fc4d1ca62524e4919fcdd93c015d35103bf35a44e94341"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visual proj/project1/server.h"
+          },
+          "hashes": {
+            "sha-256": "1a1fe0712be321da76d2fa977d6833a854ad8e2cf4436f98ae567461985df0e3"
+          }
+        }
+      ]
+    }
+  ]
+}

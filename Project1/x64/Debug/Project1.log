@@ -1,0 +1,6 @@
+﻿  App.c
+E:\visual proj\Project1\App.c(104,3): warning C4013: 'gets' undefined; assuming extern returning int
+E:\visual proj\Project1\App.c(149,71): warning C4047: 'function': 'uint8_t *' differs in levels of indirection from 'uint8_t (*)[20]'
+E:\visual proj\Project1\App.c(149,43): warning C4024: 'isValidAccount': different types for formal and actual parameter 1
+E:\visual proj\Project1\App.c(194,51): warning C4133: 'function': incompatible types - from 'float *' to 'uint8_t *'
+  Project1.vcxproj -> E:\visual proj\Project1\x64\Debug\Project1.exe
